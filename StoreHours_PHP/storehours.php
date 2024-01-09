@@ -83,9 +83,5 @@ class StoreHours {
 
     return ($currentTime >= $startTime && $currentTime <= $endTime);
   }
-
-  public function __toString() {
-    return 'StoreHours Object';
-  }
 }
 ?>
