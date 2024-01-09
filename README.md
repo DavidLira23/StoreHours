@@ -1,19 +1,22 @@
-StoreHours
-StoreHours es una clase de Java que proporciona funcionalidad para gestionar horarios de una tienda y verificar si la tienda está abierta en un momento dado, considerando horarios regulares y excepciones.
+<h1>StoreHours</h1>
+<p>StoreHours es una clase de Java que proporciona funcionalidad para gestionar horarios de una tienda y verificar si la tienda está abierta en un momento dado, considerando horarios regulares y excepciones.</p>
 
-Uso
-La clase StoreHours se puede utilizar para verificar si una tienda está abierta en un momento específico del día. Utiliza los métodos proporcionados para:
+<h2>Uso</h2>
+<p>La clase StoreHours se puede utilizar para verificar si una tienda está abierta en un momento específico del día. Utiliza los métodos proporcionados para:</p>
 
-isOpen(): Verificar si la tienda está abierta en el momento actual.
-hours(): Obtener los horarios regulares para el día actual.
-exceptions(): Obtener excepciones programadas para el día actual.
+<ul>
+  <li>isOpen(): Verificar si la tienda está abierta en el momento actual.</li>
+  <li>hours(): Obtener los horarios regulares para el día actual.</li>
+  <li>exceptions(): Obtener excepciones programadas para el día actual.</li>
+</ul>
 
-Ejemplo de Uso
+<h2>Ejemplo de Uso</h2>
+<pre><code>
 // Ejemplo de creación de instancias de StoreHours
-Map<String, String[]> regularHours = new HashMap<>();
+Map&lt;String, String[]&gt; regularHours = new HashMap&lt;&gt;();
 // Agrega los horarios regulares para cada día de la semana
 
-Map<String, String[]> exceptions = new HashMap<>();
+Map&lt;String, String[]&gt; exceptions = new HashMap&lt;&gt;();
 // Agrega las excepciones para fechas específicas
 
 // Crea una instancia de StoreHours
@@ -22,15 +25,20 @@ StoreHours storeHours = new StoreHours(regularHours, exceptions);
 // Verifica si la tienda está abierta en este momento
 boolean isOpen = storeHours.isOpen();
 System.out.println("¿La tienda está abierta ahora? " + (isOpen ? "Sí" : "No"));
+</code></pre>
 
-Métodos Principales
-isOpen(): Devuelve un booleano indicando si la tienda está abierta en el momento actual.
-hours(): Devuelve los horarios regulares para el día actual.
-exceptions(): Devuelve excepciones programadas para el día actual.
-Requisitos
-Java 8 o superior.
-Contribuciones
-Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna mejora, ¡no dudes en abrir un issue o enviar un pull request!
+<h2>Métodos Principales</h2>
+<ul>
+  <li>isOpen(): Devuelve un booleano indicando si la tienda está abierta en el momento actual.</li>
+  <li>hours(): Devuelve los horarios regulares para el día actual.</li>
+  <li>exceptions(): Devuelve excepciones programadas para el día actual.</li>
+</ul>
 
-Licencia
-Este proyecto está bajo la Licencia Apache 2.0.
+<h2>Requisitos</h2>
+<p>Java 8 o superior.</p>
+
+<h2>Contribuciones</h2>
+<p>Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna mejora, ¡no dudes en abrir un issue o enviar un pull request!</p>
+
+<h2>Licencia</h2>
+<p>Este proyecto está bajo la Licencia Apache 2.0.</p>
