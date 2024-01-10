@@ -1,5 +1,5 @@
 <h1>StoreHours_PHP</h1>
-<p>StoreHours_PHP es una clase de PHP que proporciona funcionalidad para gestionar horarios de una tienda y verificar si la tienda está abierta en un momento dado, considerando horarios regulares y excepciones.</p>
+<p>StoreHours_PHP es una clase de PHP que proporciona funcionalidad para gestionar horarios de una ubicación y verificar si la tienda está abierta en un momento dado, considerando horarios regulares y excepciones.</p>
 
 <h2>Uso</h2>
 <p>La clase StoreHours_PHP se puede utilizar para verificar si una tienda está abierta en un momento específico del día. Utiliza los métodos proporcionados para:</p>
