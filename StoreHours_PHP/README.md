@@ -5,9 +5,9 @@
 <p>La clase StoreHours_PHP se puede utilizar para verificar si una tienda está abierta en un momento específico del día. Utiliza los métodos proporcionados para:</p>
 
 <ul>
-  <li>isOpen(): Verificar si la tienda está abierta en el momento actual.</li>
-  <li>hours(): Obtener los horarios regulares para el día actual.</li>
-  <li>exceptions(): Obtener excepciones programadas para el día actual.</li>
+  <li><strong>isOpen():</strong> Verificar si la tienda está abierta en el momento actual.</li>
+  <li><strong>hours():</strong> Obtener los horarios regulares para el día actual.</li>
+  <li><strong>exceptions():</strong> Obtener excepciones programadas para el día actual.</li>
 </ul>
 
 <h2>Ejemplo de Uso</h2>
@@ -20,7 +20,7 @@ $exceptions = array();
 // Agrega las excepciones para fechas específicas
 
 // Crea una instancia de StoreHours_PHP
-$storeHours = new StoreHours_PHP($regularHours, $exceptions);
+$storeHours = new StoreHours($regularHours, $exceptions);
 
 // Verifica si la tienda está abierta en este momento
 $isOpen = $storeHours->isOpen();
@@ -29,9 +29,9 @@ echo "¿La tienda está abierta ahora? " . ($isOpen ? "Sí" : "No");
 
 <h2>Métodos Principales</h2>
 <ul>
-  <li>isOpen(): Devuelve un booleano indicando si la tienda está abierta en el momento actual.</li>
-  <li>hours(): Devuelve los horarios regulares para el día actual.</li>
-  <li>exceptions(): Devuelve excepciones programadas para el día actual.</li>
+  <li><strong>isOpen():</strong> Devuelve un booleano indicando si la tienda está abierta en el momento actual.</li>
+  <li><strong>hours():</strong> Devuelve los horarios regulares para el día actual.</li>
+  <li><strong>exceptions():</strong> Devuelve excepciones programadas para el día actual.</li>
 </ul>
 
 <h2>Requisitos</h2>
@@ -41,4 +41,6 @@ echo "¿La tienda está abierta ahora? " . ($isOpen ? "Sí" : "No");
 <p>Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna mejora, ¡no dudes en abrir un issue o enviar un pull request!</p>
 
 <h2>Licencia</h2>
-<p>Este proyecto está bajo la Licencia Apache 2.0.</p>
+<p>Este proyecto está bajo la Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0).</p>
+
+<p>Consulta el texto completo de la licencia en: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">CC BY-NC-SA 4.0</a></p>
