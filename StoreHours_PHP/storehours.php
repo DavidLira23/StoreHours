@@ -1,5 +1,5 @@
 /**
- * Copyright 2024 David Lira
+ * Copyright 2024 David Lira Guerra
  *
  * Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
  * You may obtain a copy of the License at
