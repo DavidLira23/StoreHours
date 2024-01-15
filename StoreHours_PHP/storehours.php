@@ -1,3 +1,5 @@
+<?php
+
 /**
  * Copyright 2024 David Lira Guerra
  *
@@ -12,8 +14,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-<?php
 
 class StoreHours {
   private $hours;
